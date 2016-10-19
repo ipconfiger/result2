@@ -75,12 +75,11 @@ def get_valid_user_by_email(email):
     return Err("user not exists")
 
 
-result = user = get_user_by_email('superpowerlee@gmail.com')
+result = get_user_by_email('superpowerlee@gmail.com')
 if result == Result.Ok:
     # do something if user exists ...
 else:
     # to create new user page with reason
-
 ```
 
 This one will be better, with clear logic and semantics.
@@ -90,6 +89,10 @@ That's why i write this lib. Thers is a similar lib https://github.com/dbrgn/res
 
 
 # Useage
+
+Install:
+
+pip install result2
 
 When you return something:
 
