@@ -15,6 +15,9 @@ class ResultBase(object):
     def __eq__(self, match_type):
         return isinstance(self, match_type)
 
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
 
 class Success(ResultBase):
 

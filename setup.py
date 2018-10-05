@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='result2',
-            version='0.0.2',
+            version='0.0.3',
             description='A Swift-Style result type for Python',
             author='Alexander Li',
             author_email='superpowerlee@gmail.com',
